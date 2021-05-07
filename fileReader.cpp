@@ -3,7 +3,9 @@
 void readFile()
 {
     int width, length, height;
-    ifstream file("readBlocks.dat");
+    // ifstream file("dataBlocks.dat");
+    ifstream file;
+    file.open("dataBlocks.dat");
     string line;
     //Declaring array
     vector<rectBlocks> rectBlock;
